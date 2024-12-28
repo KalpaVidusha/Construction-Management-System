@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Genesis Builders</title>
+    <!-- Add your CSS links and stylesheets here -->
+    <link rel="stylesheet" type="text/css" href="AdminDashboardCss.css">
+
+    <script>
+        alert("Admin Dashboard loaded!");
+        document.write();
+    </script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    #date {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+
+
+</head>
+<body>
+    <header>
+        <!-- Add your header content here -->
+        <h1>Admin Dashboard</h1>
+    </header>
+    
+    <nav>
+        <!-- Add your navigation/menu here -->
+        <ul>
+            <li><button type="submit"><a href="index.php">Home</a></button></li>
+            <li><button type="submit"><a href="login.php">Users Details</a></button></li>
+            <li><button type="submit"><a href="AdminStaff.php">Manage Staff</a></button></li>
+            <li><button type="submit"><a href="managerDashboard.php">Project Details</a></button></li>
+            <li><button type="submit"><a href="display.php">Financial Sector</a></button></li>
+            <li><button type="submit"><a href="AdminLogin.php">Log Out</a></button></li>
+            <!-- Add more menu items as needed -->
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Add your main content here -->
+        <center><h2>Welcome to the Admin Dashboard</h2></center>
+      
+        
+        
+    </main>
+
+    <aside>
+        <!-- Add sidebar or additional information here -->
+        
+        <center>
+            <h1>Time & Date</h1><br>
+    <div id="clock"></div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            document.getElementById("clock").textContent = timeString;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        // Initial call to set the clock immediately
+        updateClock();
+    </script>
+
+
+<div id="date"></div>
+
+<script>
+    function displayDate() {
+        const now = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const dateString = now.toLocaleDateString('en-US', options);
+        document.getElementById("date").textContent = dateString;
+    }
+
+    // Call the displayDate function when the page loads
+    displayDate();
+</script>
+
+
+        </center>
+        <!-- Add your event details here -->
+    </aside>
+
+    <footer>
+        <!-- Add your footer content here -->
+        <p>&copy; 2023 Genesis Builders</p>
+    </footer>
+    
+    <!-- Add your JavaScript scripts and links here -->
+    <script src="script.js"></script>
+</body>
+</html>

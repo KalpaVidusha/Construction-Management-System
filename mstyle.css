@@ -1,0 +1,65 @@
+/*Styles for the background container*/
+
+.background-container {
+    /*Set positions for the background*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*Set the width and height of the background*/
+    width: 100%;
+    height: 100%;
+    /*Add background image */
+    background-image: url("https://startupbiz.co.zw/wp-content/uploads/2023/05/7-Construction-Business-Ideas-For-Zimbabwe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*Add blur effect*/
+    filter: blur(5px);
+    z-index: -1; 
+}
+ 
+/*Styles for buttons*/
+button{
+    background-color: blanchedalmond;    
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: oblique;
+    border-radius: 5px;
+    border-color: burlywood;
+    color: red;
+}
+
+/*Styles for table*/
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        color: black;
+    }
+
+    /*Styles for table headers and data cells*/
+    th, td {
+        padding: 8px 12px;
+        text-align: left;
+        color: black;
+       
+    }
+
+    /*Styles for header cells*/
+    th {
+        background-color:whitesmoke;
+        font-weight: bold;
+    }
+
+    /*Styles for even rows in the table*/
+    tr:nth-child(even) {
+        background-color:whitesmoke;
+    }
+
+   /*Styles for button hover state*/
+    .btn:hover {
+        background-color: burlywood;
+        color: #000;
+    }
+

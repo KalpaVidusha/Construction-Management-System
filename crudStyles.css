@@ -1,0 +1,141 @@
+/*Styles for the body*/
+
+body{
+
+    background-color:rgb(183, 190,174);
+  
+
+}
+
+
+
+/* Styles for the button */
+button {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  background-color: #3498db;
+}
+
+button a:hover {
+  background-color: #2980b9;
+}
+
+/* Styles for the main header */
+h1 {
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+/* Styles for the form container */
+.addproject {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("images/addprojects_background.jpg");
+  
+}
+
+.addproject label {
+
+  color:whitesmoke ;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.addproject input[type="text"],
+.addproject textarea,
+.addproject input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.addproject input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.addproject input[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+/* Styles for the project details section */
+.project-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px double ;
+  border-radius: 5px;
+  background-image: url("images/project\ details\ background.jpg");
+ 
+  
+}
+
+.project-details{
+  display: block;
+  margin-bottom: 5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.project-details input[type="text"],
+.project-details textarea,
+.project-details input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-style : italic;
+  font-size:15px;
+
+}
+
+.project-details input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.project-details input[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+/* Styles for the Edit/Delete project section */
+.editproject {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.editproject h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:darkred;
+}
+
+#topic{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkred;
+    text-align: center;
+    font-size: 32px;
+    
+}

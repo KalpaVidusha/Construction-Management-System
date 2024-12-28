@@ -1,0 +1,50 @@
+ body{
+
+    background: url("images/background_Staff_Registration.jpg");
+    background-size: 100%;
+    background-position: 2px;
+ }
+
+ .mainProjectManager{
+
+    width : 500px;
+    margin: 100px auto;
+ }
+
+ .loginProjectManager{
+
+    background-color: rgba(0, 0 , 0 ,0.4);
+    width : 100%;
+    font-size: 25px;
+    border-radius: 10px;
+    }
+
+ #LoginByProjectManager{
+
+    margin: 40px;
+}
+
+ label{
+
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+ #nameSachini{
+
+    width : 400px;
+    padding : 5px;
+}
+
+ #Sachinibutton{
+
+    text-align: center;
+    width : 200px;
+    padding : 5px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 3px;
+    background-color: orange;
+    cursor: pointer;
+ }

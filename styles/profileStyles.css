@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px; /* Add some margin for separation */
+}
+
+.My-Profile-container {
+    text-align: left;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    padding: 10px;
+
+}
+
+
+.My-Profile-container p {
+    margin: 0;
+}
+
+.profile-picture {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.logout-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+.Manage-Account-container {
+    text-align: left;
+}
+
+.Manage-Account-title {
+    font-size: 24px;
+}
+
+.account-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-detail {
+    margin-bottom: 10px;
+}
+
+.account-detail label {
+    display: inline-block;
+    width: 120px;
+}
+
+.account-detail input[type="text"],
+.account-detail input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.update-button {
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}

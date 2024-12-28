@@ -1,0 +1,47 @@
+body{
+
+
+    background-color: rgb(255, 204,0);
+}
+
+
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    width: 100px; /* Adjust the width as per your logo's dimensions */
+    height: 100px; /* Adjust the height as per your logo's dimensions */
+}
+
+button{
+
+    background-color: purple; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+    border-radius:5px;
+    
+}
+
+button:hover{
+
+    background-color: #6245a0;
+}
+
+.logo-containers{
+
+    text-align: left;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  

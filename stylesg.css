@@ -1,0 +1,35 @@
+
+body{
+
+    background-image:url("images/lastbackground.jpg");
+    
+}
+/* Add styling for the buttons */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Add styling for the images */
+.projectim1, .projectim2, .projectim3 {
+    display: block;
+    margin: 10px auto;
+    width: 150px; /* Adjust the width as needed */
+}
+
+/* Optional: Add some margin between the images and buttons */
+button + img {
+    margin-bottom: 20px;
+}

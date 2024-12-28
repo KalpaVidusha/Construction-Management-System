@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #313130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('image/ADBG1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed;
+    
+}
+
+
+/* Style the center-aligned content 
+center {
+    text-align: center;
+}*/
+
+/* Style the header */
+h1 {
+    color: #fdfdfd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the container for the form */
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Style the labels for form elements */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+/* Style the login button */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "Remember me" checkbox */
+label input[type="checkbox"] {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+

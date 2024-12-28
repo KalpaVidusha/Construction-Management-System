@@ -1,0 +1,116 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/ADBG1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed;
+    
+}
+
+/* Style the header */
+header {
+    background-color: #1f1e1e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the header h1 */
+header h1 {
+    margin: 0;
+}
+
+/* Style the navigation/menu */
+nav {
+    background-color: #3b3b3b;
+    color: #c5c1c1;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000e3;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background-color: #f18900;
+    color: #c07401;
+    padding: 10px 20px;
+    border: outset;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: translateY(4px);
+    font-weight: bold;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+       
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+/* Style the main content */
+main {
+    background-color: #f0a544;
+    padding: 20px;
+}
+
+/* Style the main content h2 */
+main h2 {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Style the sidebar */
+aside {
+    background-color: #555;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the sidebar h3 */
+aside h3 {
+    margin-top: 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+
+
+

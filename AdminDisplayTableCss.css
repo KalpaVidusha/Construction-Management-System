@@ -1,0 +1,53 @@
+/* DisplayTableCss.css */
+
+
+/* Style the table and table header */
+body {
+  
+  background-image: url('image/ADBG3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed;
+  
+}
+
+table.usertableview {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+table.usertableview th {
+  background-color: #faa200;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  border: 2px solid #050505;
+  padding: 12px;
+}
+
+/* Style alternating rows */
+table.usertableview tr:nth-child(even) {
+  background-color: #b8b8b8;
+}
+
+/* Style table data cells */
+table.usertableview td {
+  text-align: center;
+  border: 1px solid #0a0a0a;
+  padding: 10px;
+}
+
+/* Style the action buttons */
+table.usertableview td button {
+  background-color: #43caff;
+  color: rgb(0, 0, 0);
+  border: outset;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+table.usertableview td button:hover {
+  background-color: #6e6e6e;
+}
