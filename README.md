@@ -43,7 +43,7 @@ The **Construction Management System (CMS)** is a web-based solution designed to
 - **Client View**: Clients can view ongoing project details.
 - **Admin Control**: Administrators can manage user accounts and database entries.
 
-Here’s the revised table with **Pathirana P. K. V** at the top:
+
 
 | **Contributor**       | **Component Responsibility**             |  
 |------------------------|-------------------------------------------|  
